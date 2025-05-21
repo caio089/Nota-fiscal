@@ -13,21 +13,22 @@ def escrever (texto):
 
 
     #começo
+
 escrever('Emissor de Nota Fiscal')
 escrever('Dados do Emitente (quem está vendendo/prestando o serviço):')
 
+def Emitente():
 # Emitente
 NomeR = input('Nome/Razão Social: ')
 CNPJ = input('CNPJ: ')
 Insc = input('Inscrição Estadual ou Municipal: ')
 end = input('Endereço completo: ')
-
-
 escrever(f'Emitente: {NomeR}')
 escrever(f'CNPJ: {CNPJ}')
 escrever(f'Inscrição: {Insc}')
 escrever(f'Endereço: {end}')
-              
+
+def destinatario ():             
 # Destinatário
 escrever('')
 escrever('Dados do Destinatário (quem está comprando/recebendo):')
